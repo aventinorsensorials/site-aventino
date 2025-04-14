@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aventino - Cucina Italiana</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="qrcode_styles.css">
+</head>
+<body>
+  <header>
+    <img src="imagens/logo-aventino.png" alt="Logo Aventino" class="logo">
+    <nav>
+      <ul class="menu">
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#experiencia">Experiência Sensorial</a></li>
+        <li><a href="#cardapios">Cardápios</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Outras seções omitidas para brevidade -->
+
+  <section id="experiencia">
+    <h2 class="titulo">Experiência Sensorial</h2>
+    <p class="texto">No Aventino, propomos uma imersão completa na cultura italiana. Vendamos os olhos de nossos clientes, embalamos o ambiente com música italiana e conduzimos uma verdadeira viagem sensorial.</p>
+    <div class="qr-code">
+      <p>Escute nossa trilha sonora no Spotify enquanto vive essa experiência!</p>
+      <img src="imagens/qrcode-spotify.png" alt="QR Code Spotify" class="qr-img">
+    </div>
+  </section>
+
+  <!-- Continuação do site -->
+
+  <footer>
+    <p>@2025 Aventino - Todos os Direitos Reservados</p>
+  </footer>
+</body>
+</html>

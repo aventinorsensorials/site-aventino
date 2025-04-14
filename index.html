@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aventino - Cucina Italiana</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Italianno&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      background-color: #750000;
+      font-family: 'Cormorant Garamond', serif;
+      color: #EFEBE0;
+      font-size: 22px;
+    }
+    header {
+      background-color: #264409;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 280px;
+    }
+    nav {
+      background-color: #264409;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+    nav a {
+      color: #bfa46f;
+      font-size: 24px;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-family: 'Cormorant Garamond', serif;
+    }
+    section {
+      padding: 4rem 2rem;
+    }
+    h2 {
+      font-family: 'Italianno', cursive;
+      font-size: 56px;
+      color: #EFEBE0;
+      margin-bottom: 1rem;
+    }
+    .cardapios {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .cardapio {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .cardapio img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+    .cardapio:hover img {
+      transform: scale(1.1);
+    }
+    .cardapio-info {
+      position: absolute;
+      bottom: -100%;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #EFEBE0;
+      padding: 1rem;
+      font-size: 20px;
+      transition: bottom 0.3s ease-in-out;
+    }
+    .cardapio:hover .cardapio-info {
+      bottom: 0;
+    }
+    .experiencia img {
+      width: 200px;
+      margin-top: 2rem;
+    }
+    footer {
+      background-color: #EFEBE0;
+      color: #000;
+      text-align: center;
+      padding: 1rem;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+    }
+  </style>
+</head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aventino - Restaurante Sensorial</title>
+
+
+  <link rel="stylesheet" href="estilos.css">
+
+ 
+  <link rel="stylesheet" href="qrcode_styles.css">
+</head>
+<body>
+  <header>
+    <img src="imagens/logo-aventino.png" alt="Logo Aventino">
+  </header>
+  <nav>
+    <a href="#sobre">Sobre Nós</a>
+    <a href="#experiencia">Experiência Sensorial</a>
+    <a href="#cardapios">Cardápios</a>
+    <a href="#reservas">Reservas</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p><strong>História do Aventino:</strong> O Aventino começou através da família Bertolini que imigrou da Itália para o Brasil devido questões familiares que influenciaram essa mudança. Com os recursos que possuíam, eles buscaram se reestruturar no Brasil mesmo em meio a consequência de estar inseridos em um país que nunca tinham visitado antes, então assim que chegaram em 2023 no Brasil. Devido seu vasto conhecimento culinário, resolveram questões legais e se estruturaram na capital paraibana na cidade de João Pessoa com uma pequena casa alugada, tiveram a brilhante idéia de inaugurar um restaurante, que era um sonho da família há alguns anos, trazendo essa cultura tradicional familiar atraindo novos consumidores da gastronomia italiana. Se estabelecendo no bairro do Tambaú com um diferencial, não só um restaurante comum, mas que envolva os sentidos, algo tão negligenciado nesse ramo. Decidiram planejar e organizar um pequeno negócio com a abertura planejada para o dia 20 de fevereiro de 2026, próximo ao carnaval, época cultural aqui no país e de grande folia, com o objetivo de garantir a confiança e conhecimento, futuramente expandindo o local e tornando essa gastronomia cada vez mais reconhecida, rica em história e superação, trazendo para seus clientes memórias afetivas e lembranças entre familiares e amigos.</p>
+    <p><strong>Missão:</strong> O restaurante nasceu com a missão de oferecer uma experiência gastronômica inovadora e sensorial na sociedade e principalmente no Brasil com o objetivo de resgatar o prazer da degustação dos alimentos de uma outra cultura através dos nossos sentidos.</p>
+    <p><strong>Valores:</strong> Nós almejamos reforçar a nossa cultura no Brasil fazendo-a ser mais reconhecida e valorizada em nossa população. Prezando sempre pela qualidade e inovação que são itens indispensáveis para a nossa equipe que busca trazer a melhor experiência imersiva a respeito da história italiana com nossa excelência no atendimento e recepção ao público.</p>
+  </section>
+
+  <section id="experiencia" class="experiencia">
+    <h2>Experiência Sensorial</h2>
+    <p>No Aventino, a sua refeição é muito mais do que apenas comer; é uma verdadeira experiência sensorial. Ao entrar, você é convidado a se desconectar do mundo e mergulhar em algo realmente especial: com os olhos vendados, você vai explorar uma jornada de sabores, aromas e sons que trazem à tona a essência da Itália.</p>
+
+</p><strong>Sabores que Encantam:</p></strong>
+Cada prato que chega à sua mesa é uma explosão de sabores autênticos, feitos com ingredientes frescos e de qualidade. Ao degustar, você vai se surpreender com combinações que despertam suas papilas gustativas. E enquanto você saboreia, a música italiana suave toca ao fundo, criando uma atmosfera envolvente e cheia de emoção.</p>
+
+</p><strong>Música que Toca a Alma:</p></strong>
+As melodias clássicas e românticas da Itália, desde as canções de Andrea Bocelli até as baladas de Lucio Dalla, preenchem o ambiente. A música não é apenas um pano de fundo; ela faz parte da sua refeição, intensificando cada sabor e cada momento. É como se cada garfada fosse acompanhada por uma trilha sonora que toca o coração. </p>
+
+</p><strong>Uma Experiência Compartilhada:</p></strong>
+E o melhor de tudo? Você não está sozinho nessa jornada. Ao seu redor, outros clientes também estão com os olhos vendados, compartilhando risos e descobertas. Essa interação cria uma conexão única, tornando a experiência ainda mais rica e memorável.</p>
+
+Venha ao Aventino e permita-se viver essa experiência sensorial inesquecível, onde a música italiana e a gastronomia se entrelaçam para criar momentos que ficarão gravados na sua memória. Reserve sua mesa e prepare-se para uma noite cheia de descobertas e encantos! 🍷🎶✨</p>
+    <div class="qr-code">
+  <p>Escaneie o QR Code e mergulhe na nossa trilha sonora italiana:</p>
+  <img src="imagens/qrcode-spotify.png.png" alt="QR Code Spotify" class="qr-img">
+</div>
+
+  </section>
+
+  <section id="cardapios">
+    <h2>Cardápios Sensoriais</h2>
+    <div class="cardapios">
+      <div class="cardapio" onclick="location.href='cardapio-vegano.html'">
+        <img src="imagens/vegano.jpg.jpg" alt="Cardápio Vegano">
+        <div class="cardapio-info">
+          Culinária vegana italiana que realça sabores naturais com criatividade e sofisticação.<br><strong>R$ 120</strong>
+        </div>
+      </div>
+      <div class="cardapio" onclick="location.href='cardapio-vegetariano.html'">
+        <img src="imagens/vegetariano.jpg.jpg" alt="Cardápio Vegetariano">
+        <div class="cardapio-info">
+          Receitas vegetarianas tradicionais da Itália com ingredientes frescos e sazonais.<br><strong>R$ 110</strong>
+        </div>
+      </div>
+      <div class="cardapio" onclick="location.href='cardapio-mediterraneo.html'">
+        <img src="imagens/mediterraneo.jpg.jpg" alt="Cardápio Mediterrâneo">
+        <div class="cardapio-info">
+          Sabores clássicos do Mediterrâneo com toque italiano, frescor e harmonia.<br><strong>R$ 130</strong>
+        </div>
+      </div>
+      <div class="cardapio" onclick="location.href='cardapio-contemporaneo.html'">
+        <img src="imagens/contemporaneo.jpg.jpg" alt="Cardápio Contemporâneo">
+        <div class="cardapio-info">
+          Interpretação moderna da culinária italiana com técnicas inovadoras.<br><strong>R$ 140</strong>
+        </div>
+      </div>
+     <div class="cardapio" onclick="location.href='sobremesas.html'">
+      <img src="imagens/sobremesas.jpg" alt="Cardápio de Sobremesas">
+      <div class="cardapio-info">
+        Delícias doces que encerram a experiência com sabor e elegância italiana.<br><strong>R$ 45</strong>
+      </div>
+    </div>
+    <div class="cardapio" onclick="location.href='bebidas.html'">
+      <img src="imagens/bebidas.jpg" alt="Cardápio de Bebidas">
+      <div class="cardapio-info">
+        Vinhos selecionados, sucos naturais e coquetéis italianos.<br><strong>R$ 35</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="reservas">
+    <h2>Reservas</h2>
+    <p>Descubra o prazer de saborear a verdadeira culinária italiana em um ambiente que estimula todos os seus sentidos. No Aventino, cada refeição é uma viagem única, e queremos que você faça parte dessa experiência mágica!
+
+Como Reservar? Para garantir seu lugar em nossa mesa, é simples! Você pode fazer sua reserva diretamente pelo nosso WhatsApp ou, se preferir, ligue para nós. Nossa equipe está pronta para ajudá-lo a escolher o melhor horário e garantir que sua visita seja perfeita. 
+
+Política de Cancelamento: Entendemos que imprevistos acontecem. Se precisar cancelar ou alterar sua reserva, pedimos que nos avise com pelo menos 24 horas de antecedência para que possamos acomodar outros convidados. 
+Venha viver uma experiência sensorial que vai além do paladar. Reserve sua mesa no Aventino e prepare-se para uma noite inesquecível! 
+<div style="background-color: #750000; color:#EFEBE0; padding: 20px; border-radius: 12px; font-family: 'Cormorant Garamond', serif; max-width: 400px; margin: auto; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+  <h3 style="font-family: 'Italianno', cursive; font-size: 28px; margin-bottom: 10px;">Formas de Pagamento</h3>
+  <p style="font-size: 18px; margin: 8px 0;">💳 Aceitamos cartões de crédito e débito</p>
+  <p style="font-size: 18px; margin: 8px 0;">📲 Pagamento via Pix disponível</p>
+  <p style="font-size: 18px; margin: 8px 0;">💵 Também aceitamos dinheiro em espécie</p>
+</div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+
+    <p>Tem alguma dúvida, sugestão ou deseja falar com nossa equipe? Estamos à disposição para tornar sua experiência ainda mais especial. Fale conosco e viva Aventino.</p>
+
+</p><strong>Como Nos Encontrar?</strong></p>
+
+- Telefone: Dê-nos uma ligadinha! Estamos disponíveis para responder suas perguntas e ajudar com reservas. Adoramos conversar com nossos clientes! 📞 Telefone: (83)99417-3872 </p>
+
+- E-mail: Prefere escrever? Mande um e-mail e prometemos responder rapidinho. Sua opinião é super importante para nós!📧 Email:aventino.sensorial@gmail.com </p>
+
+- Redes Sociais: Siga-nos nas redes sociais! Além de ficar por dentro das novidades e promoções, você pode interagir conosco e ver um pouco do que acontece aqui no Aventino. 📸 Instagram: @aventinoitalia 🎶 TikTok: @aventinoitalia </p>
+
+</p><strong>Dicas para um Atendimento Rápido:</strong></p>
+
+- Quando entrar em contato, se puder, tenha em mente a data e o horário que você gostaria para a reserva. Isso nos ajuda a te atender mais rápido!</p>
+
+- Se você está planejando uma comemoração especial, nos avise! Adoramos ajudar a tornar esses momentos ainda mais especiais.</p>
+
+</p><strong>Queremos Ouvir Você!</strong></p>
+
+Após sua visita, ficaremos muito felizes em saber o que você achou. Seu feedback é fundamental para que possamos sempre melhorar e oferecer a melhor experiência possível.</p>
+
+Estamos ansiosos para ouvir de você! Entre em contato e venha fazer parte da nossa história no Aventino. Cada conversa é uma nova oportunidade de criar memórias incríveis juntos! 🍝❤️</p>
+  </section>
+
+ <footer>
+    <p>@2025 Aventino - Todos os Direitos Reservados.</p>
+    <p>📍 Rua Silvino Lopes, 380 - Tambaú, João Pessoa - PB</p>
+    <p>📧 aventino.sensorial@gmail.com | 📞 (83) 99417-3872</p>
+    <p>🎶 TikTok: @aventinoitalia </p>
+    <p>📸 Instagram: @aventinoitalia</p>
+  </footer>
+</body>
+
+</html>
